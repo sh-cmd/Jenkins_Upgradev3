@@ -24,7 +24,7 @@
     </site>
   </distributionManagement>
   <prerequisites>
-    <maven>${mavenVersion}</maven>
+    <maven>$3.8.2</maven>
   </prerequisites>
   <scm>
     <connection>scm:svn:http://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7</connection>
