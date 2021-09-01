@@ -23,7 +23,14 @@
       <url>file:///tmp/single-module-site</url>
     </site>
   </distributionManagement>
-
+  <prerequisites>
+    <maven>${mavenVersion}</maven>
+  </prerequisites>
+  <scm>
+    <connection>scm:svn:http://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7</developerConnection>
+    <url>http://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7</url>
+  </scm>
   <build>
     <finalName>${project.artifactId}</finalName>
 
@@ -97,8 +104,8 @@
             </plugin>
 
             <plugin>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>cobertura-maven-plugin</artifactId>
+              <groupId>net.sourceforge.cobertura</groupId>
+              <artifactId>cobertura</artifactId>
               <version>2.7</version>
               <scope>test</scope>
             </plugin>
