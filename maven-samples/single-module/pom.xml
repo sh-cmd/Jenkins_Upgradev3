@@ -97,8 +97,8 @@
             </plugin>
 
             <plugin>
-              <groupId>net.sourceforge.cobertura</groupId>
-              <artifactId>cobertura</artifactId>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>cobertura-maven-plugin</artifactId>
               <version>2.7</version>
               <scope>test</scope>
             </plugin>
