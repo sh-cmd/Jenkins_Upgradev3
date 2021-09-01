@@ -23,9 +23,7 @@
       <url>file:///tmp/single-module-site</url>
     </site>
   </distributionManagement>
-  <prerequisites>
-    <maven>$3.8.2</maven>
-  </prerequisites>
+
   <scm>
     <connection>scm:svn:http://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7</connection>
     <developerConnection>scm:svn:https://svn.codehaus.org/mojo/tags/cobertura-maven-plugin-2.7</developerConnection>
